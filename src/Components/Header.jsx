@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <nav className="container flex items-center justify-between space-x-10 py-6">
         <a href="index.html">
-          <h1 className="text-2xl text-primary font-semibold">Craze Rentals</h1>
+          <h1 className="lg:text-2xl md:text-xl text-primary font-semibold">Craze Rentals</h1>
         </a>
 
         <ul className="flex items-center space-x-5">
