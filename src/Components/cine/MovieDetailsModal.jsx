@@ -2,7 +2,6 @@ import { getImageUrl } from "../../utils/cine-utility";
 
 const MovieDetailsModal = ({ movie, onClose, onCartAdd }) => {
   const { title, cover, genre, description, price } = movie;
-  console.log(movie.description);
 
   return (
     <div className="fixed top-0 left-0 w-screen h-screen z-50 bg-black/60 backdrop-blur-sm">

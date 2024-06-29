@@ -9,7 +9,6 @@ const Header = () => {
   const [showCard, setShowCard] = useState(false);
   const {cartData} = useContext(MovieContext)
 
-  console.log(cartData);
   const handleShowCard =() => {
     setShowCard(true)
   }
